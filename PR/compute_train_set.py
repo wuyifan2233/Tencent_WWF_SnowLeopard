@@ -9,7 +9,7 @@ from collections import Counter
 
 class_number = 14
 train_num = [0]*class_number
-catfile = 'D:/program/tencent/PR/train_labels/'
+catfile = r'F:\0728differ\archive\val\labels/'
 Txt = glob.glob(catfile + '*.txt')
 count = []
 for file_path in Txt:
